@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:onClick="handleClickBlueFragment"/>
+        android:onClick="handleClickRedFragment"/>
 
     <Button
         android:id="@+id/btn_load_blue_fragment"
@@ -24,7 +24,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="parent"
-        android:onClick="handleClickRedFragment"/>
+        android:onClick="handleClickBlueFragment"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
